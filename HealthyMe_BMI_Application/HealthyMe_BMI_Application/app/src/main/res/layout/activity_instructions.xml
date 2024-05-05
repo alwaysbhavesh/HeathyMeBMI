@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".InstructionsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Body Mass Index"
+        android:textColor="#FFFF00"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="serif"
+        android:text="The Body Mass Index(BMI) estimates the ideal weight for a person based on their height and age.It is valid for any person(age between 1 to 120)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:text="Less Than 16  -   Severe Thinness"
+        android:layout_marginTop="190dp"
+        android:textColor="#FA9807"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:text="16    -   16.9    -   Moderate Thinness"
+        android:layout_marginTop="230dp"
+        android:textColor="#B99855"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:text="17    -   18.4    -   Mild Thinness"
+        android:layout_marginTop="270dp"
+        android:textColor="#A09571"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:text="18.5  -   24.9    -   Normal"
+        android:layout_marginTop="310dp"
+        android:textColor="#64F40B"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:text="25    -   29.9    -   Overweight"
+        android:layout_marginTop="350dp"
+        android:textColor="#90454E"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:layout_marginTop="390dp"
+        android:gravity="center"
+        android:textColor="#C62121"
+        android:text="30    -   34.9    -   Obese Class I"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FA0303"
+        android:fontFamily="@font/raleway"
+        android:text="Greater Than 35   -   Obese Class II"
+        android:layout_marginTop="430dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway"
+        android:textColor="#45CFDD"
+        android:text="1)    For Underweight People :-"
+        android:layout_marginTop="480dp"
+        android:textSize="18sp"
+        android:gravity="center" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="505dp"
+        android:fontFamily="serif"
+        android:text="Tips:     Focus on gaining healthy weight by building muscle mass and increasing calorie intake."
+        android:textColor="#E1ECC8"
+        android:textSize="18sp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:fontFamily="serif"
+        android:text="Diet Plan:    Consume nutrient-dense foods such as lean proteins, whole grains, fruits, vegetables, nuts,
+ and seeds. Include healthy fats like avocados, olive oil, and nut butter. Increase portion sizes and eat frequent, balanced meals."
+        android:textColor="#E1ECC8"
+        android:textSize="18sp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#45CFDD"
+        android:fontFamily="@font/raleway"
+        android:text="2)    For Overweight People :-"
+        android:layout_marginTop="730dp"
+        android:textSize="18sp"
+        android:gravity="center" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E1ECC8"
+        android:fontFamily="serif"
+        android:layout_marginTop="750dp"
+        android:textSize="18sp"
+        android:text="Tips:     Aim for gradual and sustainable weight loss through a combination of dietary changes and increased physical activity.">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E1ECC8"
+        android:fontFamily="serif"
+        android:layout_marginTop="830dp"
+        android:textSize="18sp"
+        android:text="Diet:     Choose whole, unprocessed foods and reduce the intake of sugary beverages, processed snacks, and high-calorie foods. Include lean proteins, complex carbohydrates, fruits, vegetables, and healthy fats. Portion control and mindful eating are crucial.">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#45CFDD"
+        android:fontFamily="@font/raleway"
+        android:text="3)    For Normal Weight People :-"
+        android:layout_marginTop="990dp"
+        android:textSize="18sp"
+        android:gravity="center" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E1ECC8"
+        android:fontFamily="serif"
+        android:layout_marginTop="1020dp"
+        android:textSize="18sp"
+        android:text="Tips:     Maintain a healthy lifestyle by adopting balanced eating habits and regular physical activity.">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E1ECC8"
+        android:fontFamily="serif"
+        android:layout_marginTop="1100dp"
+        android:textSize="18sp"
+        android:text="Diet:     Focus on a well-rounded diet that includes all food groups in appropriate portions. Emphasize whole grains, lean proteins, fruits, vegetables, and healthy fats. Stay hydrated and limit the intake of processed and high-sugar foods.">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#45CFDD"
+        android:fontFamily="@font/raleway"
+        android:text="4)    For Obese People :-"
+        android:layout_marginTop="1250dp"
+        android:textSize="18sp"
+        android:gravity="center" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E1ECC8"
+        android:fontFamily="serif"
+        android:layout_marginTop="1290dp"
+        android:textSize="18sp"
+        android:text="Tips:     Seek professional guidance for weight management, and consider lifestyle changes for long-term success.">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E1ECC8"
+        android:fontFamily="serif"
+        android:layout_marginTop="1380dp"
+        android:textSize="18sp"
+        android:text="Diet:     Consult with a healthcare professional or registered dietitian to create a personalized plan. Generally, it involves reducing calorie intake, increasing physical activity, and making healthier food choices. Prioritize whole foods, including lean proteins, complex carbohydrates, fruits, vegetables, and healthy fats. Avoid or limit processed and high-calorie foods.">
+    </TextView>
+
+</RelativeLayout>
+</ScrollView>
